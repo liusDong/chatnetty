@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BuildProtoService">
+    <option name="fileToLanguageMap">
+      <map>
+        <entry key="$PROJECT_DIR$/src/main/java/com/myprotobuf/Person.proto" value="Java" />
+      </map>
+    </option>
+    <option name="fileToOutputPathMap">
+      <map>
+        <entry key="$PROJECT_DIR$/src/main/java/com/myprotobuf/Person.proto" value="src" />
+      </map>
+    </option>
+    <option name="fileToProtoPathMap">
+      <map>
+        <entry key="$PROJECT_DIR$/src/main/java/com/myprotobuf/Person.proto" value="src" />
+      </map>
+    </option>
+    <option name="lastLanguage" value="Java" />
+    <option name="lastOutputPath" value="src" />
+    <option name="lastProtoPath" value="src" />
+    <option name="protoCompilerPath" value="D:\code\protoc-3.9.1-win64\bin\protoc.exe" />
+  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FlexPMDProjectComponent">
     <option name="flexPMDPath" value="" />
