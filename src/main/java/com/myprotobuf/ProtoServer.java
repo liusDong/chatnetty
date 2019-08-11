@@ -16,7 +16,7 @@ public class ProtoServer {
 
         try {
             ServerBootstrap bootstrap = new ServerBootstrap();
-            bootstrap.group(bossGroup,workerGroup).channel(NioServerSocketChannel.class).handler(new LoggingHandler(LogLevel.INFO)).childHandler(new ProtoServerHandler());
+            bootstrap.group(bossGroup,workerGroup).channel(NioServerSocketChannel.class).handler(new LoggingHandler(LogLevel.INFO)).childHandler(new ProtoInit());
             ChannelFuture channelFuture = bootstrap.bind(8899).sync();
             channelFuture.channel().closeFuture().sync();
 
